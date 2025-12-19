@@ -20,7 +20,7 @@ export class ContactComponent {
     return;
   }
 
-  const phoneNumber = '919970542097'; // 🔴 builder WhatsApp number (no +)
+  const phoneNumber = '918830723292'; // 🔴 builder WhatsApp number (no +)
 
   const message =
     `New enquiry from website:\n\n` +

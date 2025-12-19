@@ -47,7 +47,7 @@ export class ListingsComponent implements OnInit {
   }
 
   getWhatsappLink(p: any): string {
-  const phone = '919970542097'; // 🔴 replace with builder WhatsApp number
+  const phone = '918830723292'; // 🔴 replace with builder WhatsApp number
 
   const imageUrl = window.location.origin + p.images[0];
 
