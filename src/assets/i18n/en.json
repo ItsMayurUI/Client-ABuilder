@@ -1,0 +1,23 @@
+{
+  "nav.home": "Home",
+  "nav.projects": "Projects",
+  "nav.about": "About",
+  "nav.contact": "Contact",
+
+  "home.hero.title": "Quality homes, built with care",
+  "home.hero.subtitle": "Premium villas and flats in Pune, Mumbai and nearby cities.",
+  "home.hero.cta": "View Projects",
+
+  "contact.title": "Contact Us",
+  "contact.subtitle": "Share your requirements and we will get back to you.",
+  "contact.name": "Full Name",
+  "contact.phone": "Phone Number",
+  "contact.email": "Email",
+  "contact.type": "Looking for",
+  "contact.message": "Message",
+  "contact.submit": "Send Message",
+
+  "about.title": "About ACLINNT Builders",
+  "about.subtitle": "Experienced builder delivering quality homes on time.",
+  "testimonials.title": "What our customers say"
+}

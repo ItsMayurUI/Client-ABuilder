@@ -1,0 +1,31 @@
+.main-img-wrapper {
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.main-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.thumb-img {
+  width: 110px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: transform 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.thumb-img:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thumb-img.selected {
+  opacity: 1;
+  box-shadow: 0 0 0 2px #0d6efd;
+}

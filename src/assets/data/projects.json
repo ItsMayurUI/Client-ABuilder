@@ -1,0 +1,80 @@
+[
+  {
+    "id": "Sadguru-1",
+    "name": "Home A",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹ 10 Lakh",
+    "area": "1000 sq ft",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "status": "Available",
+    "short": "1 BHK Row House Duplex",
+    "images": ["/assets/images/homeA/1.png", "/assets/images/homeA/2.png","/assets/images/homeA/3.png"],
+    "brochure": "/assets/data/home_a.pdf"
+  },
+  {
+    "id": "Sadguru-2",
+    "name": "Home B",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹20 Lakh",
+    "area": "2000 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "status": "Available",
+    "short": "2 BHK Row House Duplex",
+    "images": ["/assets/images/homeB/1.png","/assets/images/homeB/2.png","/assets/images/homeB/3.png"],
+    "brochure": "/assets/data/unnati_coaching.pdf"
+  },
+  {
+    "id": "Sadguru-3",
+    "name": "Home C",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹ 30 Lakh",
+    "area": "3000 sq ft",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "status": "Available",
+    "short": "3 BHK Row House Duplex",
+    "images": ["/assets/images/homeC/1.png","/assets/images/homeC/2.png","/assets/images/homeC/3.png"],
+    "brochure": "/assets/data/unnati_coaching.pdf"
+  },
+  {
+    "id": "Sadguru-4",
+    "name": "Home D",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹40 Lakh",
+    "area": "4000 sq ft",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "status": "Available",
+    "short": "4 BHK Row House Duplex",
+    "images": ["/assets/images/homeD/1.png","/assets/images/homeD/2.png","/assets/images/homeD/3.png"],
+    "brochure": "/assets/data/unnati_coaching.pdf"
+  },
+  {
+    "id": "Sadguru-5",
+    "name": "Home E",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹50 Lakh",
+    "area": "50000 sq ft",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "status": "Available",
+    "short": "5 BHK Row House Duplex",
+    "images": ["/assets/images/homeE/1.png","/assets/images/homeE/2.png","/assets/images/homeE/3.png"],
+    "brochure": "/assets/data/unnati_coaching.pdf"
+  },
+  {
+    "id": "Sadguru-6",
+    "name": "Home F",
+    "location": "Bhusawal, Maharashtra",
+    "price": "₹60 Lakh",
+    "area": "6000 sq ft",
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "status": "Available",
+    "short": "6 BHK Row House Duplex",
+    "images": ["/assets/images/homeF/1.png","/assets/images/homeF/2.png","/assets/images/homeF/3.png"],
+    "brochure": "/assets/data/unnati_coaching.pdf"
+  }
+]

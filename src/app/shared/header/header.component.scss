@@ -1,0 +1,26 @@
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar {
+  min-height: 70px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 65px;
+  }
+
+  .logo {
+    height: 48px;
+  }
+}

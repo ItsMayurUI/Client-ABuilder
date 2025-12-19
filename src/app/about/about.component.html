@@ -1,0 +1,27 @@
+<div class="container py-5">
+  <h2 class="mb-3">Sadguru Constructions</h2>
+  <p class="text-muted mb-4">
+    We are a Bhusawal-based builder focused on delivering quality homes with transparent dealings and on-time possession.
+  </p>
+
+  <!-- Stats -->
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3" *ngFor="let s of stats">
+      <div class="card shadow-sm text-center h-100">
+        <div class="card-body">
+          <h3 class="mb-1">{{ s.value }}</h3>
+          <p class="mb-0 text-muted">{{ s.label }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <h4 class="mb-3">Our Journey</h4>
+  <ul class="timeline">
+    <li *ngFor="let t of timeline">
+      <span class="year">{{ t.year }}</span>
+      <p>{{ t.text }}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,23 @@
+{
+  "nav.home": "मुखपृष्ठ",
+  "nav.projects": "प्रकल्प",
+  "nav.about": "आमच्याबद्दल",
+  "nav.contact": "संपर्क",
+
+  "home.hero.title": "गुणवत्तापूर्ण घरे, काळजीपूर्वक बांधलेली",
+  "home.hero.subtitle": "पुणे, मुंबई आणि आसपासच्या परिसरातील प्रीमियम व्हिला व फ्लॅट्स.",
+  "home.hero.cta": "प्रकल्प पहा",
+
+  "contact.title": "आमच्याशी संपर्क करा",
+  "contact.subtitle": "तुमच्या गरजा सांगा, आम्ही लवकरच संपर्क करू.",
+  "contact.name": "पूर्ण नाव",
+  "contact.phone": "मोबाइल क्रमांक",
+  "contact.email": "ईमेल",
+  "contact.type": "काय शोधत आहात?",
+  "contact.message": "संदेश",
+  "contact.submit": "मेसेज पाठवा",
+
+  "about.title": "ACLINNT बिल्डर्स विषयी",
+  "about.subtitle": "अनुभवी बिल्डर — वेळेत आणि दर्जेदार घरे प्रदान करणारे.",
+  "testimonials.title": "आमच्या ग्राहकांचे अनुभव"
+}

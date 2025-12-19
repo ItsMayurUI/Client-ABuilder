@@ -1,0 +1,94 @@
+<div class="container py-5" *ngIf="project">
+  <div class="row">
+    <!-- Left: images -->
+    <div class="col-md-7 mb-4 mb-md-0">
+      <div class="main-img-wrapper mb-3">
+        <img
+          [src]="activeImage || project.images[0]"
+          [alt]="project.name"
+          class="img-fluid main-img rounded"
+        />
+      </div>
+
+      <div class="d-flex flex-wrap">
+        <img
+          *ngFor="let img of project.images"
+          [src]="img"
+          [alt]="project.name"
+          (click)="setActive(img)"
+          class="thumb-img mr-2 mb-2"
+          [class.selected]="img === activeImage"
+        />
+      </div>
+    </div>
+
+    <!-- Right: info + enquiry form -->
+    <div class="col-md-5">
+      <h2 class="mb-2">{{ project.name }}</h2>
+      <p class="text-muted mb-3">
+        <i class="fas fa-map-marker-alt mr-1"></i> {{ project.location }}
+      </p>
+
+      <ul class="list-unstyled mb-3">
+        <li><strong>Price:</strong> {{ project.price }}</li>
+        <li><strong>Area:</strong> {{ project.area }}</li>
+        <li><strong>Bedrooms:</strong> {{ project.bedrooms }}</li>
+        <li><strong>Bathrooms:</strong> {{ project.bathrooms }}</li>
+        <li><strong>Status:</strong> {{ project.status }}</li>
+      </ul>
+
+      <p class="mb-3">{{ project.short }}</p>
+
+      <a
+        *ngIf="project.brochure"
+        [href]="project.brochure"
+        class="btn btn-outline-secondary mb-3"
+        download
+      >
+        Download Brochure
+      </a>
+
+      <div class="card p-3 shadow-sm">
+        <h5 class="mb-3">Enquiry for this property</h5>
+
+        <form>
+          <div class="form-group">
+            <input
+              class="form-control"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              class="form-control"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              name="message"
+              rows="3"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Send Enquiry
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fallback if project not found -->
+<div class="container py-5" *ngIf="!project">
+  <p class="text-center text-muted">Property not found.</p>
+</div>
