@@ -14,7 +14,7 @@ export class AboutComponent {
 
   timeline = [
     { year: '2015', text: 'Started with small residential projects.' },
-    { year: '2018', text: 'Delivered first gated community project.' },
-    { year: '2022', text: 'Expanded into premium villa and luxury segment.' }
+    { year: '2020', text: 'Delivered first gated community project.' },
+    { year: '2025', text: 'Expanded into premium villa and luxury segment.' }
   ];
 }
