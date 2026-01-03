@@ -24,3 +24,95 @@
     height: 48px;
   }
 }
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+}
+
+/* ===== Mobile Navbar Animation ===== */
+
+@media (max-width: 991px) {
+
+  .navbar-collapse {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition:
+      max-height 0.35s ease,
+      opacity 0.25s ease,
+      transform 0.25s ease;
+  }
+.navbar-collapse {
+  display: block !important; /* override bootstrap */
+}
+
+
+  .navbar-collapse.open {
+    max-height: 400px; /* enough for menu items */
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Overlay */
+  .menu-overlay {
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 998;
+  }
+
+  /* Keep navbar above overlay */
+  .navbar {
+    position: relative;
+    z-index: 999;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+
+    transform: translateY(-20px);
+    opacity: 0;
+    pointer-events: none;
+
+    transition:
+      transform 0.35s ease,
+      opacity 0.25s ease;
+    
+    z-index: 999;
+  }
+
+  .navbar-collapse.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Overlay */
+  .menu-overlay {
+    position: fixed;
+    inset: 0;
+    background: transparent;
+    z-index: 998;
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 1000;
+  }
+}
+

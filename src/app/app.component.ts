@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aclinnt-builder-site';
+
+  menuOpen = false;
+
+onMenuStateChange(state: boolean) {
+  this.menuOpen = state;
 }
+
+}
+

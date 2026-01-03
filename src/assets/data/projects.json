@@ -1,14 +1,14 @@
 [
   {
     "id": "Sadguru-1",
-    "name": "Home A",
-    "location": "Bhusawal, Maharashtra",
+    "name": "Amrut Colony 3A",
+    "location": "Chiku Cha Mala, Bhusawal, Maharashtra",
     "price": "₹ 10 Lakh",
-    "area": "1000 sq ft",
-    "bedrooms": 1,
-    "bathrooms": 1,
+    "area": "1116 sq ft",
+    "bedrooms": 2,
+    "bathrooms": 2,
     "status": "Available",
-    "short": "1 BHK Row House Duplex",
+    "short": "3 ROOM KITCHEN AND PORCH",
     "images": ["/assets/images/homeA/1.png", "/assets/images/homeA/2.png","/assets/images/homeA/3.png"],
     "brochure": "/assets/data/home_a.pdf"
   },

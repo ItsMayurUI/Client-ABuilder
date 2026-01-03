@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.page-content {
+  transition: filter 0.3s ease;
+}
+
+.page-content.blurred {
+  filter: blur(6px);
+}
